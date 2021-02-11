@@ -39,6 +39,45 @@
 
         <!--hero/jumbotron-->
         <section>
+            <div>
+                <h3>Get Started Today</h3>
+                <p>Fill out this form and one of our trainers will schedule a consult</p>
+
+            <!--Add Form Element-->
+            <form>
+
+                <!--Name element-->
+                <label for="name">Enter full name:</label>
+                <input type="text" placeholder="Your Name" name="name" id="name" />
+
+                <!--email element-->
+                <label for="email">Enter email address:</label>
+                <input type="email" placeholder="Email Address" name="email" id="email" />
+
+                <!--phone element--> 
+                <label for="phone">Enter a telephone number:</label>
+                <input type="tel" placeholder="Phone Number" name="phone" id="phone"/>
+
+                <!--insertion of radio elements-->
+                <p>
+                    Have you worked out with a trainer before?
+                    <input type="radio" name="trainer-confirm" id="trainer-yes" />
+                    <label for="trainer-yes">Yes</label>
+                    <input type="radio" name="trainer-confirm" id="trainer-no" />
+                    <label for="trainer-no">No</label>
+                </p>
+
+                <!--insertion of checkbox elements-->
+                <p>
+                    <label for="checkbox">I acknowledge that I am at least 18 years of age</label>
+                    <input type="checkbox" name="age-confirm" id="checkbox">
+                </p>
+                <button type="submit">
+                    Get running!
+                </button>
+
+            </form>
+            </div>
         </section>
 
         <!--"what we do" section-->
@@ -46,6 +85,10 @@
             <h2>What We Do</h2>
         </section>
 
+        <!--"what you do" section-->
+        <section>
+            <h2>What You Do</h2>
+        </section>
         <!--"meet the trainers" section-->
         <section>
             <h2>Meet The Trainers</h2>
