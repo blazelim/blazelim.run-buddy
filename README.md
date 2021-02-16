@@ -12,3 +12,5 @@ A website that offers fitness training services.
 
 Contribution
 Made with <3 by Blaze
+
+### ©️2019 Run Buddy, Inc
