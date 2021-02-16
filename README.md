@@ -8,7 +8,7 @@ A website that offers fitness training services.
 * CSS
 
 ## Website
-*
+*https://blazelim.github.io/blazelim.run-buddy/
 
 Contribution
 Made with <3 by Blaze
